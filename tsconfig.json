@@ -8,7 +8,9 @@
     "dist"
   ],
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+      "strictNullChecks": true,
+      "jsx": "react-jsx",
+      "jsxImportSource": "react",
+      "types": ["@testing-library/jest-dom"]
   }
 }
