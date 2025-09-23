@@ -1,0 +1,5 @@
+#F2F5F8 - Bleu poudré (arrière-plan principal)
+#F8FAFC - Blanc ciel (cards, contenus)
+#E2E8F0 - Gris bleuté (bordures, séparateurs)
+#5B9BD5 - Bleu ciel vif (accents, liens)
+#4A5568 - Gris ardoise (texte principal - beaucoup moins foncé)
