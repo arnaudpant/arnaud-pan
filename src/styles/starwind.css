@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Crimson+Pro:wght@300;400;500&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/forms";
 @variant dark (&:where(.dark, .dark *));
+/* Import des polices Google Fonts */
+
 
 @theme {
     --animate-accordion-down: accordion-down 0.2s ease-out;
@@ -24,6 +27,13 @@
             height: 0;
         }
     }
+    /* Configuration des polices personnalisées */
+    --font-family-display: "Playfair Display", serif;
+    --font-family-body: "Crimson Pro", serif;
+    --font-family-sans: system-ui, sans-serif;
+    --font-family-serif: Georgia, serif;
+    --font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+
 }
 
 @theme inline {
@@ -47,6 +57,13 @@
     --radius-xl: calc(var(--radius) + 0.25rem);
     --radius-2xl: calc(var(--radius) + 0.5rem);
     --radius-3xl: calc(var(--radius) + 1rem);
+
+       /* Classes de polices disponibles */
+    --font-display: var(--font-family-display);
+    --font-body: var(--font-family-body);
+    --font-sans: var(--font-family-sans);
+    --font-serif: var(--font-family-serif);
+    --font-mono: var(--font-family-mono);
 }
 
 @layer base {
@@ -89,9 +106,68 @@
     }
     html {
         @apply scheme-light dark:scheme-dark;
+        font-family: var(--font-family-body);
     }
     button {
         @apply cursor-pointer;
+    }
+    /* Classes de polices personnalisées */
+    .font-display {
+        font-family: var(--font-family-display);
+    }
+    
+    .font-body {
+        font-family: var(--font-family-body);
+    }
+    
+    .font-sans {
+        font-family: var(--font-family-sans);
+    }
+    
+    .font-serif {
+        font-family: var(--font-family-serif);
+    }
+    
+    .font-mono {
+        font-family: var(--font-family-mono);
+    }
+    /* Styles typographiques prédefinis */
+    .text-hero {
+        font-family: var(--font-family-display);
+        font-size: 3.5rem;
+        line-height: 1.1;
+        font-weight: 500;
+    }
+    
+    .text-title {
+        font-family: var(--font-family-display);
+        font-size: 2.25rem;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+    
+    .text-subtitle {
+        font-family: var(--font-family-body);
+        font-size: 1.125rem;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+    
+    .text-body {
+        font-family: var(--font-family-body);
+        font-size: 1rem;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+    /* Styles responsifs pour les titres */
+    @media (max-width: 768px) {
+        .text-hero {
+            font-size: 2.5rem;
+        }
+        
+        .text-title {
+            font-size: 1.875rem;
+        }
     }
 }
 
@@ -104,4 +180,12 @@
         transition-timing-function: var(--default-transition-timing-function);
         transition-duration: var(--default-transition-duration);
     }
+    /* Utilitaires de poids de police pour les polices personnalisées */
+    .font-display-light { font-family: var(--font-family-display); font-weight: 400; }
+    .font-display-medium { font-family: var(--font-family-display); font-weight: 500; }
+    .font-display-semibold { font-family: var(--font-family-display); font-weight: 600; }
+    
+    .font-body-light { font-family: var(--font-family-body); font-weight: 300; }
+    .font-body-regular { font-family: var(--font-family-body); font-weight: 400; }
+    .font-body-medium { font-family: var(--font-family-body); font-weight: 500; }
 }

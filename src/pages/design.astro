@@ -1,0 +1,208 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+
+---
+
+<Layout>
+    <section class="demo-section">
+            <h2 class="section-title font-display">Palette de Couleurs</h2>
+            
+            <div class="grid-2 mb-6">
+                <div>
+                    <h3 class="font-display text-xl mb-4 text-texte">Mode Clair</h3>
+                    <div class="space-y-2">
+                        <div class="color-demo" style="background-color: var(--color-background); color: var(--color-texte);">
+                            Background - #F2F5F8
+                        </div>
+                        <div class="color-demo" style="background-color: var(--color-card); color: var(--color-texte);">
+                            Card - #F8FAFC
+                        </div>
+                        <div class="color-demo" style="background-color: var(--color-accent); color: white;">
+                            Accent - #5B9BD5
+                        </div>
+                        <div class="color-demo" style="background-color: var(--color-texte); color: white;">
+                            Text - #4A5568
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dark:block hidden">
+                    <h3 class="font-display text-xl mb-4 text-texte">Mode Sombre</h3>
+                    <div class="space-y-2">
+                        <div class="color-demo" style="background-color: #0F1419; color: #E2E8F0;">
+                            Background - #0F1419
+                        </div>
+                        <div class="color-demo" style="background-color: #1A202C; color: #E2E8F0;">
+                            Card - #1A202C
+                        </div>
+                        <div class="color-demo" style="background-color: #7BB3E0; color: white;">
+                            Accent - #7BB3E0
+                        </div>
+                        <div class="color-demo" style="background-color: #E2E8F0; color: #1A202C;">
+                            Text - #E2E8F0
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+        
+        <!-- Classes de polices de base -->
+        <section class="demo-section">
+            <h2 class="section-title font-display">Classes de Polices de Base</h2>
+            
+            <div class="font-example">
+                <div class="class-name">.font-display</div>
+                <div class="font-info">Playfair Display - Pour les titres principaux</div>
+                <div class="font-display text-3xl font-medium text-texte">
+                    Élégance et sophistication typographique
+                </div>
+            </div>
+            
+            <div class="font-example">
+                <div class="class-name">.font-body</div>
+                <div class="font-info">Crimson Pro - Pour le texte courant</div>
+                <div class="font-body text-lg text-texte">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris.
+                </div>
+            </div>
+            
+            <div class="font-example">
+                <div class="class-name">.font-mono</div>
+                <div class="font-info">Monospace - Pour le code</div>
+                <div class="font-mono text-base text-texte bg-border bg-opacity-30 p-4 rounded">
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- Styles typographiques prédéfinis -->
+        <section class="demo-section">
+            <h2 class="section-title font-display">Styles Typographiques</h2>
+            
+            <div class="font-example">
+                <div class="class-name">.text-hero</div>
+                <div class="font-info">3.5rem, Playfair Display, font-weight: 500</div>
+                <div class="text-hero text-texte">
+                    Titre Hero
+                </div>
+            </div>
+            
+            <div class="font-example">
+                <div class="class-name">.text-title</div>
+                <div class="font-info">2.25rem, Playfair Display, font-weight: 500</div>
+                <div class="text-title text-texte">
+                    Titre de Section
+                </div>
+            </div>
+            
+            <div class="font-example">
+                <div class="class-name">.text-subtitle</div>
+                <div class="font-info">1.125rem, Crimson Pro, font-weight: 400</div>
+                <div class="text-subtitle text-texte">
+                    Sous-titre élégant pour introduire une section ou accompagner un titre principal
+                </div>
+            </div>
+            
+            <div class="font-example">
+                <div class="class-name">.text-body</div>
+                <div class="font-info">1rem, Crimson Pro, font-weight: 400</div>
+                <div class="text-body text-texte">
+                    Texte de corps standard pour les paragraphes. Cette classe applique 
+                    la police Crimson Pro avec une taille et un espacement optimisés pour la lisibilité.
+                </div>
+            </div>
+        </section>
+        
+        <!-- Variations de poids -->
+        <section class="demo-section">
+            <h2 class="section-title font-display">Variations de Poids</h2>
+            
+            <div class="grid-3">
+                <div class="font-example">
+                    <div class="class-name">.font-display-light</div>
+                    <div class="font-display-light text-xl text-texte">
+                        Display Light (400)
+                    </div>
+                </div>
+                
+                <div class="font-example">
+                    <div class="class-name">.font-display-medium</div>
+                    <div class="font-display-medium text-xl text-texte">
+                        Display Medium (500)
+                    </div>
+                </div>
+                
+                <div class="font-example">
+                    <div class="class-name">.font-display-semibold</div>
+                    <div class="font-display-semibold text-xl text-texte">
+                        Display Semibold (600)
+                    </div>
+                </div>
+                
+                <div class="font-example">
+                    <div class="class-name">.font-body-light</div>
+                    <div class="font-body-light text-base text-texte">
+                        Body light pour un style délicat (300)
+                    </div>
+                </div>
+                
+                <div class="font-example">
+                    <div class="class-name">.font-body-regular</div>
+                    <div class="font-body-regular text-base text-texte">
+                        Body regular, poids standard (400)
+                    </div>
+                </div>
+                
+                <div class="font-example">
+                    <div class="class-name">.font-body-medium</div>
+                    <div class="font-body-medium text-base text-texte">
+                        Body medium pour l'emphase (500)
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Exemple pratique -->
+        <section class="demo-section">
+            <h2 class="section-title font-display">Exemple d'Usage Pratique</h2>
+            
+            <div class="font-example">
+                <article class="max-w-2xl">
+                    <header class="mb-8">
+                        <h1 class="text-hero text-accent mb-4">
+                            Mon Portfolio
+                        </h1>
+                        <p class="text-subtitle text-texte opacity-80">
+                            Développeur web passionné par la création d'expériences numériques uniques
+                        </p>
+                    </header>
+                    
+                    <section class="mb-8">
+                        <h2 class="text-title text-texte mb-4">
+                            À Propos de Moi
+                        </h2>
+                        <p class="text-body text-texte mb-4">
+                            Bienvenue dans mon espace personnel, un mélange de blog, portfolio de projets web 
+                            et galerie photographique. Ce site remplace mes réseaux sociaux traditionnels 
+                            pour créer un environnement plus authentique et personnel.
+                        </p>
+                        <p class="text-body text-texte">
+                            Explorez mes <span class="font-body-medium text-accent">projets récents</span> 
+                            ou découvrez ma <span class="font-body-medium text-accent">galerie photographique</span> 
+                            pour mieux comprendre mon univers créatif.
+                        </p>
+                    </section>
+                    
+                    <footer class="border-t border-border pt-4">
+                        <p class="font-body-light text-sm text-texte opacity-60">
+                            Site développé avec Astro, React, Tailwind CSS et Starwind UI
+                        </p>
+                    </footer>
+                </article>
+            </div>
+        </section>
+
+</Layout>

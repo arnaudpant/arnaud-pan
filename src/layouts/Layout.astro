@@ -1,12 +1,14 @@
 ---
 import "@/styles/starwind.css";
 import BaseHead from "./BaseHead.astro";
+import Header from "@/components/layout/Header.astro";
 ---
 
 <!doctype html>
-<html lang="fr" class="">
+<html lang="fr">
 	<BaseHead {...Astro.props} />
 	<body class="flex flex-col min-h-dvh text-texte bg-background">
+		<Header />
 		<slot />
 	</body>
 </html>
