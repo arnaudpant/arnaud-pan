@@ -72,8 +72,8 @@
         --foreground: #e2e8f0;
         --card: #f8fafc;
         --accent: #5b9bd5;
-        --texte: #4a5568;
-        --primary: var(--color-blue-700);
+        --texte: #06283D;
+        --primary: #4CC9FE;
         --secondary: var(--color-fuchsia-700);
         --success: var(--color-green-300);
         --error: var(--color-red-700);
@@ -89,7 +89,7 @@
         --card: #1a202c;
         --accent: #7bb3e0;
         --texte: #e2e8f0;
-        --primary: var(--color-blue-700);
+        --primary: #DFF6FF;
         --secondary: var(--color-fuchsia-300);
         --success: var(--color-green-300);
         --error: var(--color-red-800);
