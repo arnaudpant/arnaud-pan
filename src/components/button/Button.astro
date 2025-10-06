@@ -1,0 +1,14 @@
+---
+type Props = {
+    url: string;
+    texte: string;
+}
+
+const { url, texte } = Astro.props
+---
+
+<a href={url}>
+    <div class="flex justify-center items-center px-4 py-4 bg-texte text-background rounded-lg font-mono">
+        {texte}
+    </div>
+</a>

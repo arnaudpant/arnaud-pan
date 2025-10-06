@@ -22,10 +22,6 @@ export const listCardsHomeElt: CardHomeType[] = [
                 title: "Field Notes",
                 link: "/field-notes"
             },
-            {
-                title: "Design",
-                link: "/design"
-            },
         ]
     },
     {

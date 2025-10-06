@@ -77,9 +77,6 @@
         --secondary: var(--color-fuchsia-700);
         --success: var(--color-green-300);
         --error: var(--color-red-700);
-        --border: var(--color-neutral-200);
-        --input: var(--color-neutral-200);
-        --outline: var(--color-blue-600);
         --radius: 0.625rem;
     }
 
@@ -93,9 +90,6 @@
         --secondary: var(--color-fuchsia-300);
         --success: var(--color-green-300);
         --error: var(--color-red-800);
-        --border: var(--color-neutral-800);
-        --input: var(--color-neutral-800);
-        --outline: var(--color-blue-600);
     }
 
     * {
@@ -180,12 +174,4 @@
         transition-timing-function: var(--default-transition-timing-function);
         transition-duration: var(--default-transition-duration);
     }
-    /* Utilitaires de poids de police pour les polices personnalisées */
-    .font-display-light { font-family: var(--font-family-display); font-weight: 400; }
-    .font-display-medium { font-family: var(--font-family-display); font-weight: 500; }
-    .font-display-semibold { font-family: var(--font-family-display); font-weight: 600; }
-    
-    .font-body-light { font-family: var(--font-family-body); font-weight: 300; }
-    .font-body-regular { font-family: var(--font-family-body); font-weight: 400; }
-    .font-body-medium { font-family: var(--font-family-body); font-weight: 500; }
 }
