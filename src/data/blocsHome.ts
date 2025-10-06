@@ -16,11 +16,15 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocLinks: [
             {
                 title: "Articles",
-                link: "/articles"
+                link: "/later"
             },
             {
                 title: "Field Notes",
-                link: "/field-notes"
+                link: "/later"
+            },
+            {
+                title: "Now",
+                link: "/later"
             },
         ]
     },
@@ -30,11 +34,11 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocLinks: [
             {
                 title: "Livres",
-                link: "/livres"
+                link: "/later"
             },
             {
                 title: "Avis",
-                link: "/avis"
+                link: "/later"
             },
         ]
     },
@@ -44,11 +48,11 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocLinks: [
             {
                 title: "Rack a pinard",
-                link: "/"
+                link: "https://rack-a-pinard.web.app"
             },
             {
                 title: "Galleries",
-                link: "/gallery"
+                link: "/later"
             },
         ]
     },
@@ -58,15 +62,11 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocLinks: [
             {
                 title: "Not about",
-                link: "/not-about"
-            },
-            {
-                title: "Now",
-                link: "/now"
+                link: "/later"
             },
             {
                 title: "GitHub",
-                link: "/"
+                link: "https://github.com/arnaudpant"
             },
         ]
     },
