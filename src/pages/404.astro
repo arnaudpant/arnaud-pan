@@ -1,12 +1,13 @@
 ---
 import Button from "@/components/button/Button.astro";
 import Layout from "@/layouts/Layout.astro";
+import PageLayout from "@/layouts/PageLayout.astro";
 
 
 
 ---
 <Layout>
-    <div class="px-16 grow">
+    <PageLayout>
         <div class="flex justify-center items-center h-40 ">
             <p class="text-center text-hero text-error">ERREUR 404</p>
         </div>
@@ -17,7 +18,7 @@ import Layout from "@/layouts/Layout.astro";
             <Button url="/" texte="Retour a l'accueil" />
         </div>
 
-    </div>
+    </PageLayout>
 
 
 </Layout>

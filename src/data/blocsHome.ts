@@ -16,7 +16,7 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocLinks: [
             {
                 title: "Articles",
-                link: "/later"
+                link: "/articles"
             },
             {
                 title: "Field Notes",
