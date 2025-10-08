@@ -68,6 +68,10 @@ export const listCardsHomeElt: CardHomeType[] = [
                 title: "GitHub",
                 link: "https://github.com/arnaudpant"
             },
+            {
+                title: "Design",
+                link: "/design"
+            },
         ]
     },
 ]
