@@ -1,17 +1,19 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import PageLayout from "@/layouts/PageLayout.astro";
-
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 
 ---
 
 <Layout title="Articles et post">
     <PageLayout>
         <h1>Articles récents</h1>
-        <p>Un espace d'écriture contre le flux incessant.<br /> 
+        <p class="font-sans pb-10">Un espace d'écriture contre le flux incessant.<br /> 
             Ici, pas d'algorithme à nourrir ni de cadence imposée.<br /> 
-            Mes articles naissent quand les observations du quotidien demandent à être développées, quand les pensées griffonnées méritent d'être approfondies.</p>
-        <a href="/posts/post-1">Post 1</a>
+            Mes articles naissent quand les observations du quotidien demandent à être développées.</p>
+        <ul>
+            {allPosts.map((post: any) => <li><a href={post.url} class="text-accent text-xl">{post.frontmatter.title}</a></li>)}
+        </ul>
     </PageLayout>
 
 </Layout>

@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Le premier article'
+title: 'Premier article'
 pubDate: 07-10-2025
 description: "Il s'agit du premier article de mon nouveau site peronnel."
 author: 'Moi, pour moi.'
@@ -22,22 +22,6 @@ Je voulais m'en inspirer pour créer quelque chose qui me plait vraiment.
 ### La palette de couleurs
 
 J'ai d'abord analysé la palette originale du site d'inspiration : des tons beiges chaleureux avec un accent teal. Magnifique, mais pas tout à fait moi. Avec l'aide de Claude (Sonnet 4.5), j'ai développé une version qui tend vers le bleu ciel, plus en phase avec ma sensibilité.
-
-**Ma palette finale :**
-
-**Mode Light :**
-- `#F2F5F8` - Bleu poudré (arrière-plan)
-- `#F8FAFC` - Blanc ciel (cartes)
-- `#E2E8F0` - Gris bleuté (bordures)
-- `#5B9BD5` - Bleu ciel vif (accents)
-- `#4A5568` - Gris ardoise (texte)
-
-**Mode Dark :**
-- `#0F1419` - Nuit profonde (arrière-plan)
-- `#1A202C` - Ardoise noire (cartes)
-- `#2D3748` - Gris bleuté foncé (bordures)
-- `#7BB3E0` - Bleu ciel clair (accents)
-- `#E2E8F0` - Gris perle clair (texte)
 
 Le résultat : une ambiance fraîche et aérée qui évoque le ciel.
 
@@ -74,14 +58,13 @@ Le plus complexe n'a pas été le code, mais la réflexion sur la structure du s
 
 Voici quelques idées de pages/sections qui ont émergé :
 
-- **Journal** — flux chronologique de pensées, photos, découvertes
 - **Now** — ce que je fais en ce moment (inspiré du mouvement /now)
 - **Garden** — mes notes de travail, idées en évolution
 - **Atelier** — expérimentations de code sans pression
-- **Library** — ce que je lis, avec mes notes
+- **Librarie** — ce que je lis, avec mes notes
 - **Carnets** — extraits de mes Field Notes
 - **Threads** — réflexions qui évoluent sur plusieurs jours
-- **Obsessions** — mes fixations temporaires du moment
+- **Avis** — mes fixations temporaires du moment
 
 L'idée : créer un espace qui **évolue**, qui me **ressemble**. Pas besoin de tout remplir tout de suite. Les sections peuvent naître, mûrir, changer de forme.
 
