@@ -1,15 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Premier article'
+title: "C'est quoi ce site ?"
 pubDate: 07-10-2025
 description: "Il s'agit du premier article de mon nouveau site peronnel."
 author: 'Moi, pour moi.'
 tags: ["astro", "blogging", "build in public"]
 ---
 
-Ici, je vais partager mon parcours d'apprentissage en créant ce nouveau site web.
-
-Aujourd'hui, j'ai posé les premières pierres de mon espace personnel sur le web. Pas un portfolio classique, pas un énième profil sur réseau social, mais un véritable refuge numérique. Un lieu à mon image, construit à mon rythme, sans algorithme à satisfaire.
+Aujourd'hui, j'ai posé les premières pierres de mon site personnel sur le web. Pas un portfolio classique, pas un énième portfolio, mais un véritable carnet numérique. Un lieu à mon image, construit à mon rythme, sans algorithme à satisfaire.
 
 ## Le point de départ : une inspiration
 
@@ -23,7 +21,7 @@ Je voulais m'en inspirer pour créer quelque chose qui me plait vraiment.
 
 J'ai d'abord analysé la palette originale du site d'inspiration : des tons beiges chaleureux avec un accent teal. Magnifique, mais pas tout à fait moi. Avec l'aide de Claude (Sonnet 4.5), j'ai développé une version qui tend vers le bleu ciel, plus en phase avec ma sensibilité.
 
-Le résultat : une ambiance fraîche et aérée qui évoque le ciel.
+Le résultat : une ambiance fraîche et aérée.
 
 ### La typographie
 
