@@ -1,13 +1,14 @@
 ---
+import BackButton from "@/components/button/BackButton.astro";
 import Layout from "@/layouts/Layout.astro";
 import PageLayout from "@/layouts/PageLayout.astro";
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 const uniqueTags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
 ---
 
-<Layout title="Articles et post">
+<Layout title="Ecritures et pensées">
     <PageLayout>
-        <h1>Articles récents</h1>
+        <h1>Marge de Pensée</h1>
         <p class="font-sans pb-10">Un espace d'écriture contre le flux incessant.<br /> 
             Ici, pas d'algorithme à nourrir ni de cadence imposée.<br /> 
             Mes articles naissent quand les observations du quotidien demandent à être développées.
@@ -20,6 +21,7 @@ const uniqueTags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags
         <ul>
             {allPosts.map((post: any) => <li><a href={post.url} class="text-accent text-xl">{post.frontmatter.title}</a></li>)}
         </ul>
+        <BackButton url="/" texte="Retour" />
     </PageLayout>
 
 </Layout>

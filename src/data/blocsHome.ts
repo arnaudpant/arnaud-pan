@@ -12,39 +12,39 @@ export type LinkType = {
 export const listCardsHomeElt: CardHomeType[] = [
     {
         blocTitle: "Carnets",
-        blocDescription: "Mes textes et posts",
+        blocDescription: "Flux d'écritures",
         blocLinks: [
             {
-                title: "Articles",
+                title: "Marge de Pensée",
                 link: "/articles"
             },
             {
                 title: "Field Notes",
-                link: "/later"
+                link: "/field-notes"
             },
             {
                 title: "Now",
-                link: "/later"
+                link: "/now"
             },
         ]
     },
     {
         blocTitle: "Librairie",
-        blocDescription: "Mes livres",
+        blocDescription: "Ce que je lis ou écoute",
         blocLinks: [
             {
                 title: "Livres",
-                link: "/later"
+                link: "/livres"
             },
             {
-                title: "Avis",
+                title: "Notes de lecture",
                 link: "/later"
             },
         ]
     },
     {
         blocTitle: "Atelier",
-        blocDescription: "Projets et sites web",
+        blocDescription: "Code et Projets",
         blocLinks: [
             {
                 title: "Rack a pinard",
@@ -62,14 +62,14 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocLinks: [
             {
                 title: "Not about",
-                link: "/later"
+                link: "/not-about"
             },
             {
                 title: "GitHub",
                 link: "https://github.com/arnaudpant"
             },
             {
-                title: "Design",
+                title: "Palette",
                 link: "/design"
             },
         ]

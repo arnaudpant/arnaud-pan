@@ -1,0 +1,17 @@
+---
+import BackButton from "@/components/button/BackButton.astro";
+import Layout from "@/layouts/Layout.astro";
+import PageLayout from "@/layouts/PageLayout.astro";
+---
+
+<Layout title="Now">
+    <PageLayout>
+        <h1>Now</h1>
+        <p class="font-sans pb-10">Qu'est-ce que je fais en ce moment ?<br /> 
+            C'est pas encore tout à fait opérationnel.<br /> 
+            Faudra revenir ...
+        </p>
+        <BackButton url="/" texte="Retour" />
+    </PageLayout>
+
+</Layout>
