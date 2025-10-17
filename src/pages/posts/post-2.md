@@ -1,16 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Deuxieme article'
+title: 'Développeur web'
 pubDate: 11-10-2025
-description: "Article fictif pour test"
+description: "Reflection sur les 4 dernières années"
 author: 'Moi, pour moi.'
 tags: ["blogging"]
 ---
 
-## Bla bla
+## Petite retrospective sur les quatres dernières années
 
-...
+En écriture
 
-## Bla bla
-
-hdhshsdhs dhjshdsjdhsj dhsjdhsdh sjhsjdh sdjhsd djshdsjdhsjdhs hjqshajshajs hijkcjd 

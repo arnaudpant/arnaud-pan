@@ -18,14 +18,14 @@ export const listCardsHomeElt: CardHomeType[] = [
                 title: "Marge de Pensée",
                 link: "/articles"
             },
-            {
-                title: "Field Notes",
-                link: "/field-notes"
-            },
-            {
-                title: "Now",
-                link: "/now"
-            },
+            // {
+            //     title: "Field Notes",
+            //     link: "/field-notes"
+            // },
+            // {
+            //     title: "Now",
+            //     link: "/now"
+            // },
         ]
     },
     {
@@ -36,10 +36,10 @@ export const listCardsHomeElt: CardHomeType[] = [
                 title: "Livres",
                 link: "/livres"
             },
-            {
-                title: "Notes de lecture",
-                link: "/later"
-            },
+            // {
+            //     title: "Notes de lecture",
+            //     link: "/later"
+            // },
         ]
     },
     {
@@ -50,10 +50,10 @@ export const listCardsHomeElt: CardHomeType[] = [
                 title: "Rack a pinard",
                 link: "https://rack-a-pinard.web.app"
             },
-            {
-                title: "Galleries",
-                link: "/later"
-            },
+            // {
+            //     title: "Galleries",
+            //     link: "/later"
+            // },
         ]
     },
     {
