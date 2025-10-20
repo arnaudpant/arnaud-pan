@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "C'est quoi ce site ?"
 pubDate: 07-10-2025
-description: "Il s'agit du premier article de mon nouveau site peronnel."
+description: "Tout est dans le titre !"
 author: 'Moi, pour moi.'
 tags: ["astro", "build in public"]
 ---

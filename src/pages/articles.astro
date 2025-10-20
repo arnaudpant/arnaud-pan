@@ -1,4 +1,5 @@
 ---
+import ArticleCard from "@/components/ArticleCard.astro";
 import BackButton from "@/components/button/BackButton.astro";
 import Layout from "@/layouts/Layout.astro";
 import PageLayout from "@/layouts/PageLayout.astro";
@@ -15,11 +16,11 @@ const uniqueTags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags
         </p>
         <div class="flex flex-wrap justify-center font-sans gap-4 py-8">
             {
-                uniqueTags.map(tag => <a href={`/tags/${tag}`} class="inline-block">{tag}</a>)
+                uniqueTags.map(tag => <a href={`/tags/${tag}`} class="inline-block text-card text-sm">{`#${tag}`}</a>)
             }
         </div>
-        <ul>
-            {allPosts.map((post: any) => <li><a href={post.url} class="text-accent text-xl">{post.frontmatter.title}</a></li>)}
+        <ul class="flex gap-4 flex-wrap justify-center md:justify-start">
+            {allPosts.map((post: any) => <li><ArticleCard post={post} /></li>)}
         </ul>
         <BackButton url="/" texte="Retour" />
     </PageLayout>

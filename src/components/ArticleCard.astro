@@ -1,0 +1,15 @@
+---
+type Props = {
+    post: any;
+}
+
+const { post } = Astro.props
+---
+
+<a href={post.url}>
+    <div class="flex flex-col justify-between p-4 w-80 min-h-40 border-1 border-foreground rounded-md shadow-xs">
+        <h3>{post.frontmatter.title}</h3>
+        <p>{post.frontmatter.description}</p>
+        <span class="text-subtitle text-card">{post.frontmatter.pubDate}</span>
+    </div>
+</a>
