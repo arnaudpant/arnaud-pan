@@ -32,10 +32,10 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocTitle: "Librairie",
         blocDescription: "Ce que je lis ou écoute",
         blocLinks: [
-            {
-                title: "Livres",
-                link: "/livres"
-            },
+            // {
+            //     title: "Livres",
+            //     link: "/livres"
+            // },
             // {
             //     title: "Notes de lecture",
             //     link: "/later"
@@ -60,10 +60,10 @@ export const listCardsHomeElt: CardHomeType[] = [
         blocTitle: "Prologue",
         blocDescription: "Présentations",
         blocLinks: [
-            {
-                title: "Not about",
-                link: "/not-about"
-            },
+            // {
+            //     title: "Not about",
+            //     link: "/not-about"
+            // },
             {
                 title: "GitHub",
                 link: "https://github.com/arnaudpant"

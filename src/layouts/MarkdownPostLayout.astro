@@ -6,8 +6,7 @@ import PageLayout from "./PageLayout.astro";
 const { frontmatter } = Astro.props;
 
 ---
-<meta charset="utf-8" />
-<Layout title={frontmatter.title}>
+<Layout title={frontmatter.title} description={frontmatter.description}>
     <PageLayout>
         <h1>{frontmatter.title}</h1>
         <p>Écrit par : {frontmatter.author}</p>
